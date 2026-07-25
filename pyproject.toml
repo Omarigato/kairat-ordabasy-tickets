@@ -1,2 +1,2 @@
 [tool.vercel]
-entrypoint = "api/cron.py"
+entrypoint = "api.cron:handler"
