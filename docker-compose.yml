@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  ticketon_bot:
+    build: .
+    container_name: ticketon_kairat_bot
+    restart: always
+    environment:
+      - BOT_TOKEN=8763822196:AAHKqkJr7fRfcz0dcFXK7ntnRTGVr2nwejc
